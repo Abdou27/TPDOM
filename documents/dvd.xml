@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DVDLibrary xmlns="http://www.example.org/package">
+   <DVD>
+      <film>
+         <title>The Godfather</title>
+
+         <director>Coppola</director>
+
+         <year>1972</year>
+
+         <type>Crime</type>
+
+         <actor>
+            <lastName>Brando</lastName>
+
+            <firstName>Marlon</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Pacino</lastName>
+
+            <firstName>Al</firstName>
+         </actor>
+      </film>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>The Lord of the Rings: The Return of the King</title>
+
+         <director>Jackson</director>
+
+         <year>2003</year>
+
+         <type>Fantsay</type>
+
+         <actor>
+            <lastName>Astin</lastName>
+
+            <firstName>Sean</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Bloom</lastName>
+
+            <firstName>Orlando</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Wood</lastName>
+
+            <firstName>Elija</firstName>
+         </actor>
+      </film>
+
+      <rent date="24/07/2003">
+         <person>
+            <lastName>Smith</lastName>
+
+            <firstName>Robert</firstName>
+
+            <address>Thermapolis, Bains-Les-Bains</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>The Shawshank Redemption</title>
+
+         <director>
+         je suis la
+         </director>
+
+         <year>1994</year>
+
+         <type>Drama</type>
+
+         <actor>
+            <lastName>Robbins</lastName>
+
+            <firstName>Tim</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Freeman</lastName>
+
+            <firstName>Morgan</firstName>
+         </actor>
+      </film>
+
+      <rent date="30/11/2004">
+         <person>
+            <lastName>Collins</lastName>
+
+            <firstName>Phil</firstName>
+
+            <address>USA</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>Shichinin no samurai</title>
+
+         <director>
+         </director>
+
+         <year>1954</year>
+
+         <type>Action</type>
+
+         <actor>
+            <lastName>Shimura</lastName>
+
+            <firstName>Takashi</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Mifune</lastName>
+
+            <firstName>Toshiro</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Inaba</lastName>
+
+            <firstName>Yoshio</firstName>
+         </actor>
+      </film>
+
+      <rent date="01/12/2004">
+         <person>
+            <lastName>Smith</lastName>
+
+            <firstName>Robert</firstName>
+
+            <address>Thermapolis, Bains-Les-Bains</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>Casablanca</title>
+
+         <director>Curtiz</director>
+
+         <year>1942</year>
+
+         <type>Drama</type>
+
+         <actor>
+            <lastName>Bogart</lastName>
+
+            <firstName>Humphrey</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Bergman</lastName>
+
+            <firstName>Ingrid</firstName>
+         </actor>
+      </film>
+
+      <rent date="12/12/2004">
+         <person>
+            <lastName>Smith</lastName>
+
+            <firstName>Robert</firstName>
+
+            <address>Thermapolis, Bains-Les-Bains</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>Citizen Kane</title>
+
+         <director>Orwell</director>
+
+         <year>1941</year>
+
+         <type>Mystery</type>
+
+         <actor>
+            <lastName>Cotten</lastName>
+
+            <firstName>Joseph</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Comingore</lastName>
+
+            <firstName>Dorothy</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Agnes</lastName>
+
+            <firstName>Moorehead</firstName>
+         </actor>
+      </film>
+
+      <rent date="05/12/2004">
+         <person>
+            <lastName>Collins</lastName>
+
+            <firstName>Phil</firstName>
+
+            <address>USA</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>Pulp Fiction</title>
+
+         <director>Tarantino</director>
+
+         <year>1994</year>
+
+         <type>Crime</type>
+
+         <actor>
+            <lastName>Travolta</lastName>
+
+            <firstName>John</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Jackson</lastName>
+
+            <firstName>Samuel</firstName>
+         </actor>
+      </film>
+
+      <rent date="09/11/2004">
+         <person>
+            <lastName>Young</lastName>
+
+            <firstName>Angus</firstName>
+
+            <address>CattelastName</address>
+         </person>
+      </rent>
+   </DVD>
+
+   <DVD>
+      <film>
+         <title>Rear Window</title>
+
+         <director>
+         toujours la
+         </director>
+
+         <year>1954</year>
+
+         <type>Thriller</type>
+
+         <actor>
+            <lastName>Stewart</lastName>
+
+            <firstName>James</firstName>
+         </actor>
+
+         <actor>
+            <lastName>Kelly</lastName>
+
+            <firstName>Grace</firstName>
+         </actor>
+      </film>
+   </DVD>
+</DVDLibrary>

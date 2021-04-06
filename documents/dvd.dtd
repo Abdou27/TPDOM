@@ -1,0 +1,25 @@
+<!ELEMENT DVDLibrary (DVD*) >
+<!ELEMENT DVD (film, rent?) >
+
+<!ELEMENT film ( title, director, year, type,actor+) >
+<!ELEMENT actor (lastName, firstName)>
+<!ELEMENT rent (person)>
+<!ATTLIST rent date  CDATA #REQUIRED>
+<!ELEMENT person (lastName, firstName, address)>
+
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT director (#PCDATA) >
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT type (#PCDATA) >
+<!ELEMENT lastName (#PCDATA) >
+<!ELEMENT firstName (#PCDATA) >
+<!ELEMENT address (#PCDATA) >
+
+
+
+
+
+
+
+
+
