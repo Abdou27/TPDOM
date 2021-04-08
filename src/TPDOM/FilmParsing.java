@@ -155,8 +155,6 @@ public class FilmParsing {
 	
 	public void louerFilme(String filmTitle, String lastName, String firstName, String address, String date) {
 		NodeList dvds = doc.getElementsByTagName("DVD");
-		int p = 2;
-		p = p - 0;
 		for (int i = 0; i < dvds.getLength(); i++) {
 			Element dvd = (Element) dvds.item(i);
 			String title = dvd.getElementsByTagName("title").item(0).getFirstChild().getNodeValue();
