@@ -161,6 +161,10 @@ public class FilmParsing {
 			Element dvd = (Element) dvds.item(i);
 			String title = dvd.getElementsByTagName("title").item(0).getFirstChild().getNodeValue();
 			if(title.equals(filmTitle)) {
+				if(dvd.getElementsByTagName("rent").getLength() != 0) {
+					Node rent = dvd.getElementsByTagName("rent").item(0);
+					dvd.removeChild(rent);
+				}
 				Node lastNameNode = doc.createElement("lastName");
 				lastNameNode.appendChild(doc.createTextNode(lastName));
 				Node firstNameNode = doc.createElement("firstName");
